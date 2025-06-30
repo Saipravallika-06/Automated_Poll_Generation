@@ -1,0 +1,78 @@
+/* Import a clean font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f4f7f8, #e9eff1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.teacher-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.primary {
+  background-color: #2d72d9;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #1b4f9c;
+}
+
+.secondary {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.secondary:hover {
+  background-color: #dcdde1;
+}
